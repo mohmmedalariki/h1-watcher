@@ -16,7 +16,7 @@
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/<your-username>/h1-watcher.git
+git clone https://github.com/mohmmedalariki/h1-watcher.git
 cd h1-watcher
 npm install
 ```
@@ -117,7 +117,7 @@ h1-watcher/
 1. **Fetch** — Queries HackerOne API for all programs, paginates through results
 2. **Filter** — Keeps only `state === "public_mode"` programs
 3. **Diff** — Compares against known programs in `state/db.json`
-4. **Alert** — Sends a single summary message to configured channels (Telegram/Discord)
+4. **Alert** — Sends chunked messages to Telegram (HTML) and/or Discord (Markdown). Long messages are automatically split to fit platform limits (4096 chars for Telegram, 2000 chars for Discord).
 5. **Persist** — Saves new programs to DB, commits back to repo via GitHub Actions
 
 ## Persistence Options
@@ -135,18 +135,36 @@ For production use, consider an external store:
 
 To switch, modify `src/db.js` to use your preferred storage backend. The `load()` and `save()` interface remains the same.
 
-## Configuration
+## Auto-Recon (Optional)
 
-| Environment Variable | Default | Description |
-|---|---|---|
-| `H1_API_USERNAME` | — | HackerOne API token identifier |
-| `H1_API_TOKEN` | — | HackerOne API token value |
-| `TELEGRAM_BOT_TOKEN` | — | Telegram bot token |
-| `TELEGRAM_CHAT_ID` | — | Telegram chat ID for alerts |
-| `DISCORD_WEBHOOK_URL` | — | Discord webhook URL |
-| `AUTO_RECON` | `false` | Enable automatic recon dispatch |
-| `DB_PATH` | `state/db.json` | Path to state database file |
-| `LOG_LEVEL` | `info` | Log level: `error`, `warn`, `info` |
+When `AUTO_RECON=true`, the watcher dispatches a `repository_dispatch` event for each batch of new programs. This triggers the `recon-dispatch.yml` workflow which you can customize with your own recon tools:
+
+1. Set the repo variable: **Settings → Variables → Actions** → `AUTO_RECON` = `true`
+2. Edit `.github/workflows/recon-dispatch.yml` to add your recon steps (subfinder, naabu, httpx, etc.)
+
+The dispatch payload includes each new program's `handle`, `name`, and `offers_bounties` flag.
+
+## Runbook
+
+### First Run
+The first time the watcher runs, all public programs (~590+) are detected as "new". They are all alerted via Telegram/Discord and saved to `state/db.json`.
+
+### Steady State
+Subsequent runs detect 0 new programs most of the time. No alerts are sent. The cron exits cleanly.
+
+### New Program Appears
+When HackerOne launches a new public program, the next cron run detects it, sends a Telegram/Discord alert, and saves it to the DB.
+
+### Expected Alert Format (Telegram)
+```
+🔔 h1-watcher — 2 new HackerOne programs detected!
+
+• Acme Corp (acme) — 💰 Bounty
+  → https://hackerone.com/acme
+
+• Beta Corp (beta) — 🏅 VDP
+  → https://hackerone.com/beta
+```
 
 ## License
 
