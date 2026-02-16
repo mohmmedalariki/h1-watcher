@@ -1,0 +1,44 @@
+name: recon-dispatch
+
+on:
+  repository_dispatch:
+    types: [new-h1-program]
+  workflow_call:
+    inputs:
+      programs:
+        description: 'JSON string of new program handles'
+        required: true
+        type: string
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Display new programs
+        run: |
+          echo "🔍 New programs detected for recon:"
+          echo '${{ toJSON(github.event.client_payload.programs) }}'
+
+      # ---------------------------------------------------------------
+      # Add your recon pipeline steps here. Examples:
+      #
+      # - name: Run subdomain enumeration
+      #   run: |
+      #     for handle in $(echo '${{ toJSON(github.event.client_payload.programs) }}' | jq -r '.[].handle'); do
+      #       echo "Enumerating $handle..."
+      #       # subfinder -d "$handle" -o "recon/$handle-subdomains.txt"
+      #     done
+      #
+      # - name: Run port scanning
+      #   run: |
+      #     echo "Port scanning placeholder"
+      #
+      # ---------------------------------------------------------------
+
+      - name: Summary
+        run: echo "✅ Recon pipeline complete (placeholder)"

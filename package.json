@@ -1,0 +1,27 @@
+{
+  "name": "h1-watcher",
+  "version": "1.0.0",
+  "description": "Monitor newly launched public HackerOne bug bounty programs and get alerts via Telegram/Discord",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "src/watcher.js",
+  "scripts": {
+    "start": "node src/watcher.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "hackerone",
+    "bug-bounty",
+    "monitor",
+    "watcher",
+    "security"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  }
+}
