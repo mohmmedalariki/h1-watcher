@@ -5130,6 +5130,15 @@
       "started_accepting_at": "2025-07-15T12:51:45.226Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "100697": {
+      "handle": "cohere_health",
+      "name": "Cohere Health",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-02-19T15:10:41.653Z",
+      "first_seen": "2026-02-19T15:29:25.968Z"
+    },
     "101050": {
       "handle": "hack_the_box",
       "name": "Hack The Box",
@@ -5311,5 +5320,5 @@
       "first_seen": "2026-02-16T01:26:38.076Z"
     }
   },
-  "last_run": "2026-02-19T14:40:45.293Z"
+  "last_run": "2026-02-19T15:29:25.968Z"
 }
