@@ -5310,6 +5310,15 @@
       "started_accepting_at": "2025-12-05T23:22:29.616Z",
       "first_seen": "2026-02-16T01:26:38.076Z"
     },
+    "108513": {
+      "handle": "mod_supply_chain_vdp",
+      "name": "MOD Supply Chain VDP",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-01-26T11:45:14.197Z",
+      "first_seen": "2026-02-24T12:35:45.482Z"
+    },
     "108938": {
       "handle": "tines_automation_vdp",
       "name": "Tines (VDP)",
@@ -5320,5 +5329,5 @@
       "first_seen": "2026-02-16T01:26:38.076Z"
     }
   },
-  "last_run": "2026-02-24T11:53:10.631Z"
+  "last_run": "2026-02-24T12:35:45.482Z"
 }
