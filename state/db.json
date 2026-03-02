@@ -621,6 +621,15 @@
       "started_accepting_at": "2015-06-09T01:32:09.595Z",
       "first_seen": "2026-02-16T01:26:38.074Z"
     },
+    "2329": {
+      "handle": "clear",
+      "name": "CLEAR",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2015-07-30T18:23:04.610Z",
+      "first_seen": "2026-03-02T17:04:02.009Z"
+    },
     "2367": {
       "handle": "revive_adserver",
       "name": "Revive Adserver",
@@ -5329,5 +5338,5 @@
       "first_seen": "2026-02-16T01:26:38.076Z"
     }
   },
-  "last_run": "2026-03-02T16:07:08.679Z"
+  "last_run": "2026-03-02T17:04:02.009Z"
 }
