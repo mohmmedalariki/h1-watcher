@@ -5103,6 +5103,15 @@
       "started_accepting_at": "2025-08-05T18:29:50.099Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "99230": {
+      "handle": "tbs-sct",
+      "name": "Treasury Board of Canada Secretariat/Secrétariat du Conseil du Trésor du Canada",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-02-10T16:16:00.079Z",
+      "first_seen": "2026-03-09T20:20:24.420Z"
+    },
     "99765": {
       "handle": "tucows_vdp",
       "name": "Tucows (VDP)",
@@ -5338,5 +5347,5 @@
       "first_seen": "2026-02-16T01:26:38.076Z"
     }
   },
-  "last_run": "2026-03-09T19:49:01.509Z"
+  "last_run": "2026-03-09T20:20:24.420Z"
 }
