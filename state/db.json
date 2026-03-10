@@ -4833,6 +4833,15 @@
       "started_accepting_at": "2024-10-17T18:01:46.213Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "89085": {
+      "handle": "qinetiq",
+      "name": "QinetiQ Response",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2025-03-31T13:13:18.509Z",
+      "first_seen": "2026-03-10T11:19:04.652Z"
+    },
     "90417": {
       "handle": "syfe_bbp",
       "name": "Syfe",
@@ -5347,5 +5356,5 @@
       "first_seen": "2026-02-16T01:26:38.076Z"
     }
   },
-  "last_run": "2026-03-10T10:37:17.320Z"
+  "last_run": "2026-03-10T11:19:04.652Z"
 }
