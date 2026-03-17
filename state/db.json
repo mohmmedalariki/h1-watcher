@@ -3312,6 +3312,15 @@
       "started_accepting_at": "2022-10-20T19:52:44.683Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "52975": {
+      "handle": "whatnot",
+      "name": "Whatnot",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2021-06-29T17:00:00.353Z",
+      "first_seen": "2026-03-17T14:04:15.136Z"
+    },
     "53020": {
       "handle": "zooplus",
       "name": "Zooplus",
@@ -5374,5 +5383,5 @@
       "first_seen": "2026-02-16T01:26:38.076Z"
     }
   },
-  "last_run": "2026-03-17T12:40:16.667Z"
+  "last_run": "2026-03-17T14:04:15.136Z"
 }
