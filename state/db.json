@@ -5381,7 +5381,16 @@
       "offers_bounties": false,
       "started_accepting_at": "2026-01-15T14:16:20.319Z",
       "first_seen": "2026-02-16T01:26:38.076Z"
+    },
+    "109455": {
+      "handle": "getyourguide_vdp",
+      "name": "GetYourGuide VDP",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-03-02T13:17:05.964Z",
+      "first_seen": "2026-03-23T11:28:36.612Z"
     }
   },
-  "last_run": "2026-03-23T10:36:31.801Z"
+  "last_run": "2026-03-23T11:28:36.612Z"
 }
