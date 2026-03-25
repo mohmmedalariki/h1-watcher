@@ -5399,7 +5399,16 @@
       "offers_bounties": false,
       "started_accepting_at": "2026-03-02T13:17:05.964Z",
       "first_seen": "2026-03-23T11:28:36.612Z"
+    },
+    "109544": {
+      "handle": "clear_street_vdp",
+      "name": "Clear Street Disclosure Program",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-03-25T14:57:11.735Z",
+      "first_seen": "2026-03-25T18:32:13.021Z"
     }
   },
-  "last_run": "2026-03-25T17:39:30.110Z"
+  "last_run": "2026-03-25T18:32:13.021Z"
 }
