@@ -49,6 +49,7 @@ jobs:
             echo "No state changes to commit"
           else
             git commit -m "chore: update watcher state [skip ci]"
+            git pull --rebase origin main
             git push
             echo "State committed and pushed"
           fi
