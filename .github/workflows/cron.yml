@@ -42,32 +42,25 @@ jobs:
 
       - name: Commit state changes
         run: |
-          set -x
           git config user.name "h1-watcher-bot"
           git config user.email "h1-watcher-bot@users.noreply.github.com"
-          echo "=== Git Status Before ==="
-          git status
-          echo "=== Git Log (last 3 commits) ==="
-          git log --oneline -3
-          echo "=== Fetching origin ==="
+          
+          # Stash any uncommitted changes first
+          git stash
+          
+          # Now fetch and rebase
           git fetch origin main
-          echo "=== Git Log After Fetch ==="
-          git log --oneline -3
-          echo "=== Checking remote main ==="
-          git log --oneline origin/main -3
-          echo "=== Attempting rebase ==="
-          git rebase origin/main || git rebase --abort
-          echo "=== Adding state file ==="
+          git rebase origin/main
+          
+          # Pop stashed changes back
+          git stash pop
+          
+          # Now add and commit
           git add state/db.json
-          echo "=== Checking diff ==="
           if git diff --cached --quiet; then
             echo "No state changes to commit"
           else
-            echo "=== Committing ==="
             git commit -m "chore: update watcher state [skip ci]"
-            echo "=== Git Status Before Push ==="
-            git status
-            echo "=== Pushing to origin ==="
             git push origin main
             echo "State committed and pushed"
           fi
