@@ -5373,6 +5373,15 @@
       "started_accepting_at": "2026-01-26T11:45:14.197Z",
       "first_seen": "2026-02-24T12:35:45.482Z"
     },
+    "108602": {
+      "handle": "luminor",
+      "name": "Luminor",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-01-15T11:54:22.681Z",
+      "first_seen": "2026-03-31T21:40:19.112Z"
+    },
     "108795": {
       "handle": "sembcorp_industries",
       "name": "Sembcorp Industries",
@@ -5410,5 +5419,5 @@
       "first_seen": "2026-03-25T18:32:13.021Z"
     }
   },
-  "last_run": "2026-03-31T21:00:07.144Z"
+  "last_run": "2026-03-31T21:40:19.112Z"
 }
