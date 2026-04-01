@@ -5409,6 +5409,15 @@
       "started_accepting_at": "2026-01-15T14:16:20.319Z",
       "first_seen": "2026-02-16T01:26:38.076Z"
     },
+    "109311": {
+      "handle": "hebbia_vdp",
+      "name": "Hebbia (VDP)",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-04-01T14:47:16.240Z",
+      "first_seen": "2026-04-01T15:41:14.260Z"
+    },
     "109455": {
       "handle": "getyourguide_vdp",
       "name": "GetYourGuide VDP",
@@ -5428,5 +5437,5 @@
       "first_seen": "2026-03-25T18:32:13.021Z"
     }
   },
-  "last_run": "2026-04-01T14:14:16.282Z"
+  "last_run": "2026-04-01T15:41:14.260Z"
 }
