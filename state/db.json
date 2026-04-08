@@ -324,6 +324,15 @@
       "started_accepting_at": "2014-08-21T14:51:30.008Z",
       "first_seen": "2026-02-16T01:26:38.073Z"
     },
+    "440": {
+      "handle": "coinmate",
+      "name": "CoinMate.io",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2015-08-04T20:46:46.501Z",
+      "first_seen": "2026-04-08T12:40:34.185Z"
+    },
     "443": {
       "handle": "algolia",
       "name": "Algolia",
@@ -5437,5 +5446,5 @@
       "first_seen": "2026-03-25T18:32:13.021Z"
     }
   },
-  "last_run": "2026-04-08T11:37:26.405Z"
+  "last_run": "2026-04-08T12:40:34.185Z"
 }
