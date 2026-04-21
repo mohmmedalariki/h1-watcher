@@ -5444,7 +5444,16 @@
       "offers_bounties": false,
       "started_accepting_at": "2026-03-25T14:57:11.735Z",
       "first_seen": "2026-03-25T18:32:13.021Z"
+    },
+    "110831": {
+      "handle": "mcgrawhill",
+      "name": "McGraw Hill",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-04-02T16:52:42.392Z",
+      "first_seen": "2026-04-21T14:52:56.587Z"
     }
   },
-  "last_run": "2026-04-21T13:06:57.628Z"
+  "last_run": "2026-04-21T14:52:56.587Z"
 }
