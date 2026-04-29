@@ -5418,6 +5418,15 @@
       "started_accepting_at": "2026-01-15T14:16:20.319Z",
       "first_seen": "2026-02-16T01:26:38.076Z"
     },
+    "108943": {
+      "handle": "taxwell-vdp",
+      "name": "Taxwell VDP",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-01-15T13:47:55.974Z",
+      "first_seen": "2026-04-29T20:19:26.450Z"
+    },
     "109311": {
       "handle": "hebbia_vdp",
       "name": "Hebbia (VDP)",
@@ -5455,5 +5464,5 @@
       "first_seen": "2026-04-21T14:52:56.587Z"
     }
   },
-  "last_run": "2026-04-29T19:05:05.403Z"
+  "last_run": "2026-04-29T20:19:26.450Z"
 }
