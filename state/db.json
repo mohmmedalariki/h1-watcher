@@ -5427,6 +5427,15 @@
       "started_accepting_at": "2026-01-15T13:47:55.974Z",
       "first_seen": "2026-04-29T20:19:26.450Z"
     },
+    "109309": {
+      "handle": "coupang_tw",
+      "name": "Coupang Taiwan",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2026-03-16T04:27:34.379Z",
+      "first_seen": "2026-05-06T01:14:57.578Z"
+    },
     "109311": {
       "handle": "hebbia_vdp",
       "name": "Hebbia (VDP)",
@@ -5464,5 +5473,5 @@
       "first_seen": "2026-04-21T14:52:56.587Z"
     }
   },
-  "last_run": "2026-05-05T23:32:20.464Z"
+  "last_run": "2026-05-06T01:14:57.578Z"
 }
