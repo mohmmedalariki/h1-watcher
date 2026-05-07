@@ -4446,6 +4446,15 @@
       "started_accepting_at": "2023-10-10T08:53:09.443Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "70892": {
+      "handle": "anthropic",
+      "name": "Anthropic",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2023-09-19T13:45:51.178Z",
+      "first_seen": "2026-05-07T19:09:31.135Z"
+    },
     "71332": {
       "handle": "transunion",
       "name": "TransUnion LLC",
@@ -5473,5 +5482,5 @@
       "first_seen": "2026-04-21T14:52:56.587Z"
     }
   },
-  "last_run": "2026-05-07T17:23:29.748Z"
+  "last_run": "2026-05-07T19:09:31.135Z"
 }
