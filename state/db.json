@@ -4950,6 +4950,15 @@
       "started_accepting_at": "2024-11-19T14:20:53.621Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "93257": {
+      "handle": "vf-corporation-vdp",
+      "name": "VF Corporation - VDP",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2025-03-17T20:13:09.299Z",
+      "first_seen": "2026-05-22T00:29:03.114Z"
+    },
     "93597": {
       "handle": "1password_ctf",
       "name": "1Password - CTF",
@@ -5482,5 +5491,5 @@
       "first_seen": "2026-04-21T14:52:56.587Z"
     }
   },
-  "last_run": "2026-05-17T00:05:04.706Z"
+  "last_run": "2026-05-22T00:29:03.114Z"
 }
