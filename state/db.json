@@ -5409,6 +5409,15 @@
       "started_accepting_at": "2026-01-26T11:45:14.197Z",
       "first_seen": "2026-02-24T12:35:45.482Z"
     },
+    "108579": {
+      "handle": "cognition",
+      "name": "Cognition",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-01-16T14:49:43.507Z",
+      "first_seen": "2026-05-26T14:33:00.750Z"
+    },
     "108602": {
       "handle": "luminor",
       "name": "Luminor",
@@ -5491,5 +5500,5 @@
       "first_seen": "2026-04-21T14:52:56.587Z"
     }
   },
-  "last_run": "2026-05-26T08:52:20.574Z"
+  "last_run": "2026-05-26T14:33:00.751Z"
 }
