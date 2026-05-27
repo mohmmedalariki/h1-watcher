@@ -5427,6 +5427,15 @@
       "started_accepting_at": "2026-01-15T11:54:22.681Z",
       "first_seen": "2026-03-31T21:40:19.112Z"
     },
+    "108787": {
+      "handle": "gogo_vdp",
+      "name": "Gogo VDP",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-03-24T14:41:09.536Z",
+      "first_seen": "2026-05-27T14:01:26.958Z"
+    },
     "108795": {
       "handle": "sembcorp_industries",
       "name": "Sembcorp Industries",
@@ -5500,5 +5509,5 @@
       "first_seen": "2026-04-21T14:52:56.587Z"
     }
   },
-  "last_run": "2026-05-27T10:40:18.090Z"
+  "last_run": "2026-05-27T14:01:26.958Z"
 }
