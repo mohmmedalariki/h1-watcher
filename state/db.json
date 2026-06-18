@@ -4680,6 +4680,15 @@
       "started_accepting_at": "2024-05-13T13:05:30.131Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "81953": {
+      "handle": "agoda-public",
+      "name": "Agoda Public",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2026-06-18T08:50:32.667Z",
+      "first_seen": "2026-06-18T10:51:11.593Z"
+    },
     "82258": {
       "handle": "mintel",
       "name": "Mintel",
@@ -5527,5 +5536,5 @@
       "first_seen": "2026-06-10T20:05:29.216Z"
     }
   },
-  "last_run": "2026-06-18T06:25:25.140Z"
+  "last_run": "2026-06-18T10:51:11.593Z"
 }
