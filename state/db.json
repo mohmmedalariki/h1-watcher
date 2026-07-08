@@ -1332,6 +1332,15 @@
       "started_accepting_at": "2017-06-08T21:51:50.708Z",
       "first_seen": "2026-02-16T01:26:38.074Z"
     },
+    "20434": {
+      "handle": "codacy",
+      "name": "Codacy",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2017-06-06T22:36:56.096Z",
+      "first_seen": "2026-07-08T11:27:44.073Z"
+    },
     "21024": {
       "handle": "bitwarden",
       "name": "Bitwarden",
@@ -5545,5 +5554,5 @@
       "first_seen": "2026-07-01T04:58:54.425Z"
     }
   },
-  "last_run": "2026-07-08T09:33:00.144Z"
+  "last_run": "2026-07-08T11:27:44.073Z"
 }
