@@ -5481,6 +5481,15 @@
       "started_accepting_at": "2026-01-15T13:47:55.974Z",
       "first_seen": "2026-04-29T20:19:26.450Z"
     },
+    "109096": {
+      "handle": "discover-vdp",
+      "name": "Discover VDP",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-03-24T18:44:12.549Z",
+      "first_seen": "2026-07-10T17:58:22.575Z"
+    },
     "109309": {
       "handle": "coupang_tw",
       "name": "Coupang Taiwan",
@@ -5554,5 +5563,5 @@
       "first_seen": "2026-07-01T04:58:54.425Z"
     }
   },
-  "last_run": "2026-07-10T16:03:22.110Z"
+  "last_run": "2026-07-10T17:58:22.575Z"
 }
