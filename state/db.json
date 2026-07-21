@@ -3942,6 +3942,15 @@
       "started_accepting_at": "2022-07-28T14:47:54.266Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "58184": {
+      "handle": "abercrombie_fitch_bbp",
+      "name": "Abercrombie & Fitch Bug Bounty",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2022-08-08T21:13:15.370Z",
+      "first_seen": "2026-07-21T16:12:36.130Z"
+    },
     "58186": {
       "handle": "kkr_vdp",
       "name": "KKR-VDP",
@@ -5563,5 +5572,5 @@
       "first_seen": "2026-07-01T04:58:54.425Z"
     }
   },
-  "last_run": "2026-07-21T14:52:53.529Z"
+  "last_run": "2026-07-21T16:12:36.130Z"
 }
