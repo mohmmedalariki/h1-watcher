@@ -5570,7 +5570,16 @@
       "offers_bounties": false,
       "started_accepting_at": "2026-06-17T20:32:55.197Z",
       "first_seen": "2026-07-01T04:58:54.425Z"
+    },
+    "114418": {
+      "handle": "wolt",
+      "name": "Wolt",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2026-07-23T10:24:56.769Z",
+      "first_seen": "2026-07-27T14:06:09.532Z"
     }
   },
-  "last_run": "2026-07-27T11:46:44.889Z"
+  "last_run": "2026-07-27T14:06:09.532Z"
 }
