@@ -5588,7 +5588,16 @@
       "offers_bounties": true,
       "started_accepting_at": "2026-07-23T10:24:56.769Z",
       "first_seen": "2026-07-27T14:06:09.532Z"
+    },
+    "115006": {
+      "handle": "assa_abloy_americas",
+      "name": "Assa Abloy Americas",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-07-30T14:05:20.327Z",
+      "first_seen": "2026-07-30T15:08:55.417Z"
     }
   },
-  "last_run": "2026-07-30T12:59:16.384Z"
+  "last_run": "2026-07-30T15:08:55.417Z"
 }
