@@ -2259,6 +2259,15 @@
       "started_accepting_at": "2019-08-01T15:47:57.664Z",
       "first_seen": "2026-02-16T01:26:38.074Z"
     },
+    "42006": {
+      "handle": "box_private",
+      "name": "Box BB",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2019-10-22T23:38:15.309Z",
+      "first_seen": "2026-08-04T15:59:28.735Z"
+    },
     "42008": {
       "handle": "investnext",
       "name": "InvestNext",
@@ -5599,5 +5608,5 @@
       "first_seen": "2026-07-30T15:08:55.417Z"
     }
   },
-  "last_run": "2026-08-04T13:40:20.454Z"
+  "last_run": "2026-08-04T15:59:28.735Z"
 }
