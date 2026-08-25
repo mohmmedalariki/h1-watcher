@@ -5535,6 +5535,15 @@
       "started_accepting_at": "2026-04-01T14:47:16.240Z",
       "first_seen": "2026-04-01T15:41:14.260Z"
     },
+    "109411": {
+      "handle": "vanguard",
+      "name": "Vanguard",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-04-14T18:46:23.904Z",
+      "first_seen": "2026-08-25T15:41:38.527Z"
+    },
     "109455": {
       "handle": "getyourguide_vdp",
       "name": "GetYourGuide VDP",
@@ -5635,5 +5644,5 @@
       "first_seen": "2026-08-18T15:19:26.043Z"
     }
   },
-  "last_run": "2026-08-25T15:00:20.031Z"
+  "last_run": "2026-08-25T15:41:38.528Z"
 }
