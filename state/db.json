@@ -3411,6 +3411,15 @@
       "started_accepting_at": "2021-08-12T17:57:22.181Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "53217": {
+      "handle": "semtech",
+      "name": "Semtech",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2021-08-05T14:32:50.769Z",
+      "first_seen": "2026-09-02T13:55:42.320Z"
+    },
     "53236": {
       "handle": "octopus-energy",
       "name": "Octopus Energy Group",
@@ -5644,5 +5653,5 @@
       "first_seen": "2026-08-18T15:19:26.043Z"
     }
   },
-  "last_run": "2026-09-02T09:48:33.163Z"
+  "last_run": "2026-09-02T13:55:42.320Z"
 }
