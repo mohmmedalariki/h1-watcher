@@ -3600,6 +3600,15 @@
       "started_accepting_at": "2021-10-26T07:41:22.696Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "54885": {
+      "handle": "arc-bbp",
+      "name": "Arc BBP",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2022-01-27T20:37:57.305Z",
+      "first_seen": "2026-09-16T01:40:38.875Z"
+    },
     "54981": {
       "handle": "disney",
       "name": "The Walt Disney Company",
@@ -5653,5 +5662,5 @@
       "first_seen": "2026-08-18T15:19:26.043Z"
     }
   },
-  "last_run": "2026-09-15T23:43:31.934Z"
+  "last_run": "2026-09-16T01:40:38.875Z"
 }
