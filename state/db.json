@@ -4149,6 +4149,15 @@
       "started_accepting_at": "2022-11-03T09:08:12.475Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "59176": {
+      "handle": "vercel",
+      "name": "Vercel",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2022-09-30T14:57:43.364Z",
+      "first_seen": "2026-09-21T20:34:03.415Z"
+    },
     "59452": {
       "handle": "magic-eden",
       "name": "Magic Eden",
@@ -5671,5 +5680,5 @@
       "first_seen": "2026-09-16T12:05:02.224Z"
     }
   },
-  "last_run": "2026-09-21T16:40:52.708Z"
+  "last_run": "2026-09-21T20:34:03.415Z"
 }
