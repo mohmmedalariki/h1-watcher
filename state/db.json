@@ -5643,6 +5643,15 @@
       "started_accepting_at": "2026-07-23T10:24:56.769Z",
       "first_seen": "2026-07-27T14:06:09.532Z"
     },
+    "114975": {
+      "handle": "nebius_ai_vdp",
+      "name": "Nebius AI Vulnerability Disclosure",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-09-22T16:07:12.116Z",
+      "first_seen": "2026-09-23T14:58:59.574Z"
+    },
     "115006": {
       "handle": "assa_abloy_americas",
       "name": "Assa Abloy Americas",
@@ -5680,5 +5689,5 @@
       "first_seen": "2026-09-16T12:05:02.224Z"
     }
   },
-  "last_run": "2026-09-23T10:09:38.972Z"
+  "last_run": "2026-09-23T14:58:59.574Z"
 }
