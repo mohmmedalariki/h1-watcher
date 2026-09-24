@@ -4644,6 +4644,15 @@
       "started_accepting_at": "2024-04-23T13:08:24.108Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "76417": {
+      "handle": "kaltura",
+      "name": "Kaltura",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2024-05-10T20:22:18.087Z",
+      "first_seen": "2026-09-24T14:25:28.162Z"
+    },
     "76567": {
       "handle": "interco_vdp",
       "name": "Inter & Co. VDP",
@@ -5689,5 +5698,5 @@
       "first_seen": "2026-09-16T12:05:02.224Z"
     }
   },
-  "last_run": "2026-09-24T09:31:33.893Z"
+  "last_run": "2026-09-24T14:25:28.162Z"
 }
