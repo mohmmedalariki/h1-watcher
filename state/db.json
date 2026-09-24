@@ -5454,6 +5454,15 @@
       "started_accepting_at": "2026-02-04T19:25:23.041Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "107771": {
+      "handle": "live_nation",
+      "name": "Live Nation",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2026-03-03T19:28:51.234Z",
+      "first_seen": "2026-09-24T21:41:08.894Z"
+    },
     "108287": {
       "handle": "anduril_industries",
       "name": "Anduril Industries",
@@ -5707,5 +5716,5 @@
       "first_seen": "2026-09-16T12:05:02.224Z"
     }
   },
-  "last_run": "2026-09-24T18:29:20.501Z"
+  "last_run": "2026-09-24T21:41:08.894Z"
 }
