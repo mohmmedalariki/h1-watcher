@@ -5714,7 +5714,16 @@
       "offers_bounties": true,
       "started_accepting_at": "2026-09-16T08:58:46.804Z",
       "first_seen": "2026-09-16T12:05:02.224Z"
+    },
+    "117363": {
+      "handle": "omarchy",
+      "name": "Omarchy",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2026-10-01T17:46:03.202Z",
+      "first_seen": "2026-10-01T22:00:05.520Z"
     }
   },
-  "last_run": "2026-10-01T17:42:34.002Z"
+  "last_run": "2026-10-01T22:00:05.520Z"
 }
