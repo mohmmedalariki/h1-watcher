@@ -5670,6 +5670,15 @@
       "started_accepting_at": "2026-07-23T10:24:56.769Z",
       "first_seen": "2026-07-27T14:06:09.532Z"
     },
+    "114479": {
+      "handle": "xp_inc_vdp",
+      "name": "XP Inc Vulnerability Disclosure",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-09-22T16:23:28.732Z",
+      "first_seen": "2026-10-27T20:57:47.321Z"
+    },
     "114975": {
       "handle": "nebius_ai_vdp",
       "name": "Nebius AI Vulnerability Disclosure",
@@ -5743,5 +5752,5 @@
       "first_seen": "2026-10-01T22:00:05.520Z"
     }
   },
-  "last_run": "2026-10-27T16:33:06.732Z"
+  "last_run": "2026-10-27T20:57:47.321Z"
 }
