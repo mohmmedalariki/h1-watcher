@@ -5652,6 +5652,15 @@
       "started_accepting_at": "2026-05-21T21:01:15.490Z",
       "first_seen": "2026-07-27T20:58:54.405Z"
     },
+    "114005": {
+      "handle": "smartsheet_vdp",
+      "name": "Smartsheet (VDP)",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-08-05T15:14:56.934Z",
+      "first_seen": "2026-10-29T19:50:33.663Z"
+    },
     "114051": {
       "handle": "anthropic-cyber-jailbreak",
       "name": "Anthropic Cyber Jailbreak",
@@ -5752,5 +5761,5 @@
       "first_seen": "2026-10-01T22:00:05.520Z"
     }
   },
-  "last_run": "2026-10-29T14:31:10.300Z"
+  "last_run": "2026-10-29T19:50:33.663Z"
 }
