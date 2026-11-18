@@ -5139,6 +5139,15 @@
       "started_accepting_at": "2025-02-03T20:08:34.381Z",
       "first_seen": "2026-02-16T01:26:38.075Z"
     },
+    "96172": {
+      "handle": "coupang",
+      "name": "Coupang",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": true,
+      "started_accepting_at": "2025-04-23T00:58:58.554Z",
+      "first_seen": "2026-11-18T01:25:16.467Z"
+    },
     "96398": {
       "handle": "dust",
       "name": "Dust",
@@ -5770,5 +5779,5 @@
       "first_seen": "2026-11-09T20:03:56.851Z"
     }
   },
-  "last_run": "2026-11-17T18:49:57.977Z"
+  "last_run": "2026-11-18T01:25:16.467Z"
 }
