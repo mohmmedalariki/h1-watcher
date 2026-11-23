@@ -5760,6 +5760,15 @@
       "started_accepting_at": "2026-09-16T08:58:46.804Z",
       "first_seen": "2026-09-16T12:05:02.224Z"
     },
+    "116309": {
+      "handle": "gcash_vdp",
+      "name": "GCash Vulnerability Disclosure",
+      "state": "public_mode",
+      "submission_state": "open",
+      "offers_bounties": false,
+      "started_accepting_at": "2026-09-14T01:01:27.170Z",
+      "first_seen": "2026-11-23T01:43:24.113Z"
+    },
     "117363": {
       "handle": "omarchy",
       "name": "Omarchy",
@@ -5779,5 +5788,5 @@
       "first_seen": "2026-11-09T20:03:56.851Z"
     }
   },
-  "last_run": "2026-11-22T21:15:09.017Z"
+  "last_run": "2026-11-23T01:43:24.113Z"
 }
